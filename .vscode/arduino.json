@@ -1,4 +1,5 @@
 {
-    "sketch": "32u4test.ino",
-    "board": "arduino:avr:leonardo"
+    "board": "arduino:avr:leonardo",
+    "output": "build",
+    "sketch": "flight_panel.ino"
 }
