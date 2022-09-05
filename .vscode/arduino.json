@@ -1,0 +1,4 @@
+{
+    "sketch": "32u4test.ino",
+    "board": "arduino:avr:leonardo"
+}
