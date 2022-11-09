@@ -1,5 +1,6 @@
 {
     "board": "arduino:avr:leonardo",
     "output": "build",
-    "sketch": "flight_panel.ino"
+    "sketch": "flight_panel.ino",
+    "port": "COM7"
 }
