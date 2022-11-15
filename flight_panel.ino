@@ -1,6 +1,6 @@
 #include <Joystick.h>
 
-#define PINS 16
+#define PINS 15
 
 Joystick_ Joystick(JOYSTICK_DEFAULT_REPORT_ID, JOYSTICK_TYPE_GAMEPAD, PINS, 0,
                    false, false, false, false, false, false, false, false, false, false, false);
@@ -17,7 +17,7 @@ public:
   }
 };
 
-CButton Buttons[PINS] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 16, 14, 15, 20, 21};
+CButton Buttons[PINS] = {9, 5, 10, 7, 8, A1, 15, 16, 6, 14, 0, 1, A3, 4, A2};
 
 void setup()
 {
